@@ -1,0 +1,6 @@
+provider: s3
+bucket: twist-electron
+path: /windows
+updaterCacheDirName: twist-updater
+publisherName:
+  - Payist Payments Inc.

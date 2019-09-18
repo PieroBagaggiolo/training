@@ -1,0 +1,83 @@
+{
+  "project_info": {
+    "project_number": "3739638254",
+    "firebase_url": "https://gia-a-tavola-785ff.firebaseio.com",
+    "project_id": "gia-a-tavola-785ff",
+    "storage_bucket": "gia-a-tavola-785ff.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:3739638254:android:c46986f664c4081f",
+        "android_client_info": {
+          "package_name": "it.resmedia.alreadyAtTheTable.client"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "3739638254-n8qu45qcq86glmad1mliol3rnmc2fteq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBv2O9sx_5_z9RvInGYcp-ClkjhLFxrnEM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "3739638254-n8qu45qcq86glmad1mliol3rnmc2fteq.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "3739638254-1jlo1sle5a03atv60m0i8usq6hbvnrqe.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "it.resmedia.gia-a-tavola"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:3739638254:android:39406b7ed51c6c8a",
+        "android_client_info": {
+          "package_name": "it.resmedia.already_at_the_table"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "3739638254-n8qu45qcq86glmad1mliol3rnmc2fteq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBv2O9sx_5_z9RvInGYcp-ClkjhLFxrnEM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "3739638254-n8qu45qcq86glmad1mliol3rnmc2fteq.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "3739638254-1jlo1sle5a03atv60m0i8usq6hbvnrqe.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "it.resmedia.gia-a-tavola"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

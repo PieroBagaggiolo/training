@@ -1,0 +1,155 @@
+name: resmedia_already_at_the_table
+description: A new Flutter project.
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+version: 1.0.6+6
+
+environment:
+  sdk: ">=2.2.2 <3.0.0"
+
+#  flutter build apk --target-platform android-arm,android-arm64 --split-per-abi
+#  flutter build appbundle --target-platform android-arm,android-arm64
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: any
+
+  ### INPUT
+  contact_picker: any
+  image_picker: any #^0.6.0+1
+  datetime_picker_formfield: any #^0.1.8
+
+  ### OUTPUT
+  share: any
+  flushbar: any
+
+  ### GRAPHICS
+  font_awesome_flutter: any
+  flutter_staggered_grid_view: any
+  flutter_sticky_header: any
+  smooth_star_rating: any
+  dotted_border: any
+  photo_view: any
+  cached_network_image: any
+
+  ### UTILITY
+  path_provider: any
+  shared_preferences: any
+  json_annotation: any
+  rational: any
+  intl_translation: any
+  flutter_localizations: # More info: https://proandroiddev.com/flutter-localization-step-by-step-30f95d06018d
+    sdk: flutter
+  logger: any
+  rxdart: any
+
+  ### POSITION
+  flutter_google_places: any
+  geocoder: any
+  geoflutterfire: any
+  location: 2.3.5
+
+  ### FIREBASE
+  cloud_firestore: any
+  firebase_storage: any
+  firebase_auth: any
+  firebase_messaging: any
+  cloud_functions: any
+  firebase_dynamic_links: any
+
+  easy_route:
+    path: ../../plugins/easy_route
+  easy_widget:
+    path: ../../plugins/easy_widget
+  easy_blocs:
+    path: ../../plugins/easy_blocs
+  easy_firebase:
+    path: ../../plugins/easy_firebase
+  pocket_map:
+    path: ../../plugins/pocket_map
+  easy_stripe:
+    path: ../../plugins/easy_stripe
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  build_runner: any # flutter packages pub run build_runner build --delete-conflicting-outputs
+
+  json_serializable: any
+  dash_generator: any
+
+# For information on the generic Dart part of this file, see the
+# following page: https://www.dartlang.org/tools/pub/pubspec
+
+# The following section is specific to Flutter.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  fonts:
+    - family: ResMedia
+      fonts:
+        - asset: fonts/ResMedia.ttf
+    - family: Pacifico
+      fonts:
+        - asset: fonts/Pacifico-Regular.ttf
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/svg/
+    # assets-generator-begin
+    # assets/img/*
+    - assets/img/background.png
+    - assets/img/launch_image.png
+    - assets/img/logo.png
+    - assets/img/video.png
+    # assets/img/promo/*
+    - assets/img/promo/background.jpg
+    - assets/img/promo/promo2.png
+    # assets-generator-end
+    - assets/imgs/restaurant/dish_of_day/
+    - assets/imgs/restaurant/type_of_cuisine/
+
+
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.io/assets-and-images/#resolution-aware.
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.io/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.io/custom-fonts/#from-packages

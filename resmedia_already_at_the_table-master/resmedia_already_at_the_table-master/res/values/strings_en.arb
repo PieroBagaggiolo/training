@@ -1,0 +1,13 @@
+{
+  "title": "Already at the table",
+  "email_address": "Email Address",
+  "password": "Password",
+  "orWith": "or with",
+  "logIn": "Log In",
+  "signUp": "Sign Up",
+  "nearby": "Nearby",
+  "filters": "Filters",
+  "typesOfCuisine": "Types of Cuisine",
+  "wifi_GeneralInfo": "Wi-Fi",
+  "airConditioned_GeneralInfo": "Property with air-condition"
+}
