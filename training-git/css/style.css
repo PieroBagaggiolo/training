@@ -18,8 +18,8 @@ div {
 }
 
 .imgBox {
-    width: 200px;
-    height: 200px;
+    width: 350px;
+    height: 350px;
     margin: 20px auto;
 }
 
@@ -32,14 +32,19 @@ img {
 
 h1 {
     color: #3BA031;
-    border: 1px solid red;
+    border: 1px solid #FD344B;
 }
 
 h2 {
-    color: red;
+    color: #FD344B;
     border: 1px solid #3BA031;
 }
 
 hr {
     padding: 20px;
+    background-color: #1C41B6;
+}
+
+p {
+    font-weight: italic;
 }
