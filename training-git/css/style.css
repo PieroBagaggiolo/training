@@ -13,16 +13,19 @@ div {
     font-size: 15px;
 }
 
-img{
+img {
     width: 150px;
     height: 150px;
-}
-h1{
-	color:blue;
-	border: 1px solid red;
-}
-h2 {
-    color: red;
-	border: 1px solid blue;
+    display: block;
+    margin: 20px auto;
 }
 
+h1 {
+    color: blue;
+    border: 1px solid red;
+}
+
+h2 {
+    color: red;
+    border: 1px solid blue;
+}
