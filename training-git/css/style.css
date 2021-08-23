@@ -1,18 +1,23 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
 
-body{
+body {
     background-color: #CCC;
     text-align: center;
 }
 
-div{
+div {
     margin: 30px;
     font-size: 15px;
 }
-img{
+
+h2 {
+    color: red;
+}
+
+img {
     width: 100px;
     height: 100px;
 }
