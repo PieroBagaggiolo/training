@@ -1,4 +1,4 @@
-let body = document.body;
-body.addEventListener("click", function () {
-  this.classList.toggle("lightcoral");
+let img = document.querySelector("img");
+img.addEventListener("click", function () {
+  document.body.classList.toggle("lightcoral");
 });
