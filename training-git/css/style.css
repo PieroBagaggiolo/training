@@ -44,7 +44,19 @@ hr {
     padding: 20px;
     background-color: #1C41B6;
 }
-
 p {
     font-weight: italic;
+}
+
+.motto{
+    margin:20px;
+    font-size: 23px;
+    font-weight: bold;
+}
+.eng{
+    font-size: 23px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin: 20px;
+    color:#FFFFFF;
 }
